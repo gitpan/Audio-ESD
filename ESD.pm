@@ -50,7 +50,7 @@ require AutoLoader;
 	ESD_VOLUME_BASE
 );
 %EXPORT_TAGS = (standard => \@EXPORT_OK);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
